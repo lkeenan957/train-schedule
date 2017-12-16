@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<title>Train Scheduler</title>
+</head>
+<body>
+
+<div class='header'>
+  <h1>Train Schedule</h1>
+<div>
+
+<div class='container1'>
+  <table id="trainTable">
+    <tr>
+    <th>Train Name</th>
+    <th>Destination</th>
+    <th>Frequency (min)</th>
+    <th>Next Arrival</th>
+    <th>Minutes Away</th>
+    </tr>
+  </table>
+</div>
+
+<div class="container2">
+  <h4>Add Your Train</h4>
+    <form>
+    <div class="form-group">
+    <input type="text" class="validate" id="trainName">
+    <label for="">Train Name</label>
+    </div>
+    <div class="form-group">
+    <input type="text" class="validate" id="destination">
+    <label for="">Destination</label>
+    </div>
+    <div class="form-group">
+    <input type="time" class="validate" id="first">
+    <label class='active' for="">First Train (HH:mm Military Time)</label>
+    </div>
+    <div class="form-group">
+    <input type="number" class="validate" id="frequency">
+    <label for="">Frequency (minutes)</label>
+    </div>
+    <button type="submit" class="btn btn-info" id="addTrainBtn">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
