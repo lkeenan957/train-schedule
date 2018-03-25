@@ -1,0 +1,64 @@
+.jumbotron {
+	padding-top: 15px;
+	height: 200px;
+	min-width: 630px;
+	background-image: url("../images/indianTrain.gif");
+	background-position: top;
+	background-size: 100%;
+	color: #000099;
+	font-family: 'Faster One', cursive;
+	/*font-family: 'Fascinate Inline', cursive*/;
+	text-align: center;
+	font-size: 80px;
+	padding-bottom: 5px;
+
+}
+
+.panel-heading {
+	padding: 15px;
+	margin: 5px;
+font-size: 25px bold;
+	color: #000099;
+}
+
+.panel-title, th, h2 {
+	color:  #000099;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 22px bold;
+	/*background-color: #000099;*/
+}
+.form-group {
+	display: inline-block;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 18px;
+	color:  #000099;
+}
+.panel {
+	min-width: 630px;
+	margin-bottom: 5px;
+	font-size: 18px;
+
+}
+#form-center {
+	width:630px;
+	display: block;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+input {
+	margin-top: 10px;
+}
+
+.footer {
+	width: 100%;
+	height: 45px;
+	padding-top: 5px;
+	background-color: #000099;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	color: #f73b4e;
+	min-width: 630px;
+	z-index: -1;
+}
