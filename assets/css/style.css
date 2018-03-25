@@ -21,11 +21,13 @@ font-size: 25px bold;
 	color: #000099;
 }
 
-.panel-title, th, h2 {
+.panel-title, th,h2 {
 	color:  #000099;
 	text-align: center;
 	font-family: 'Orbitron', sans-serif;
-	font-size: 22px bold;
+	font-size: 22px;
+	font-weight: bolder;
+	font-weight: 900;
 	/*background-color: #000099;*/
 }
 .form-group {
